@@ -1,0 +1,17 @@
+.gradle/
+.idea/
+build/
+local.properties
+*.iml
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
+captures/
+.externalNativeBuild/
+.cxx/
+*.tar.gz
+在线演示链接.txt
+GitHub上传教程.md
+项目说明.md
