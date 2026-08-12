@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.miuixfloatingnav"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.miuixfloatingnav"
         minSdk = 31
-        targetSdk = 37
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
     }
@@ -38,7 +38,7 @@ android {
 }
 
 dependencies {
-    implementation("top.yukonga.miuix.kmp:miuix-ui-android:0.9.3")
+    implementation("top.yukonga.miuix.kmp:miuix-ui-android:0.9.2")
     
     val composeBom = platform("androidx.compose:compose-bom:2024.12.01")
     implementation(composeBom)

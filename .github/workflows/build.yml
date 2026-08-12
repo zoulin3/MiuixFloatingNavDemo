@@ -17,10 +17,6 @@ jobs:
       with:
         java-version: '21'
         distribution: 'temurin'
-    
-    - name: Install Android SDK Platform 37
-      run: |
-        yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platforms;android-37"
         
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
