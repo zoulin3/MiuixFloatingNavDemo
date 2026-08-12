@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.miuixfloatingnav"
-    compileSdk = 35
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.example.miuixfloatingnav"
         minSdk = 31
-        targetSdk = 35
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
     }
