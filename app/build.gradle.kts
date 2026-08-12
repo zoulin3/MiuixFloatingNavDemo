@@ -37,7 +37,7 @@ android {
 }
 
 dependencies {
-    implementation("top.yukonga.miuix.kmp:miuix-ui-android:0.9.3")
+    implementation("top.yukonga.miuix.kmp:miuix-ui-android:0.9.2")
     
     val composeBom = platform("androidx.compose:compose-bom:2024.12.01")
     implementation(composeBom)
